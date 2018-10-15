@@ -1,0 +1,10 @@
+option app_label = "webservice";
+option name = "webservice";
+
+message WebService (Service){
+    option verbose_name = "WebService";
+}
+
+message WebServiceInstance (ServiceInstance){
+    option verbose_name = "WebServiceInstance";
+}
